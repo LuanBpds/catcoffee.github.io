@@ -1,0 +1,169 @@
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+header{
+    background-size: cover;
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+header nav{
+    display: flex;
+    background-color:rgb(0, 0, 0);
+    justify-content:center;
+    align-items:baseline;
+    margin: -1px -10px 100PX -10px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav li {
+    padding: 0 60px 0px 60px;
+
+
+      
+}
+.divisao {
+    margin-top: -3.5cm;
+    width: 100%;
+    border-top: 1px solid #ffffff 
+
+}
+#menu_esquerda{
+    margin-left: 0px;
+}
+
+#menu_direita{
+    margin-left: 150px;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #c0bab6;
+
+}
+
+#texto{
+    font-size:36px;
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: -1cm;
+    
+}
+
+
+.centralizar-texto1 {
+    max-width: 10000px; /* Ajuste conforme necessário */
+    width: 100%;
+}
+
+ul#texto3 {
+    list-style-type: none;
+    font-size: x-large;
+    padding: 0;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #ffffff;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+header nav ul li a{
+    display: block;
+      color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+header nav ul li a:houver{
+    background-color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2cm; 
+}
+
+.container a {
+    display: block;
+    transition: 0.355s;
+    cursor: pointer;
+    border: none;
+    padding: 0; 
+    margin: 0; 
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center; 
+}
+
+.container a img {
+    pointer-events: none; 
+}
+
+#lanch {
+    margin-top: -1.3cm;
+}
+
+#gato {
+    margin-top: -1cm;
+    object-position: center;
+}
+
+#cafe {
+    margin-top: 0.1cm;
+}
+
+.container:hover a {
+    transform: scale(1);
+}
+
+.container:hover a:hover {
+    opacity: 1;
+    transform: scale(1.2); 
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+video{
+    align-items: center;
+    margin-top: 0cm;
+    height: 270px;
+    max-width: 100%;
+    object-fit: cover;
+}
